@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>My Personal Website</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #2b2f33;
+      color: #b0b0b0;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #1c1f22;
+      color: #66fcf1;
+      padding: 20px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      position: relative;
+    }
+
+    header img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      border: 3px solid #66fcf1;
+    }
+
+    header h1 {
+      color: #fff;
+    }
+
+    nav {
+      background-color: #0b0c10;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    nav a {
+      color: #b0b0b0;
+      padding: 14px 20px;
+      text-decoration: none;
+      transition: color 0.3s, transform 0.3s;
+    }
+
+    nav a:hover {
+      color: #66fcf1;
+      transform: scale(1.1);
+    }
+
+    .container {
+      width: 90%;
+      margin: auto;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .social-links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .social-links a {
+      background-color: #1c1f22;
+      color: #b0b0b0;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s, transform 0.3s, color 0.3s;
+    }
+
+    .social-links a.whatsapp:hover {
+      background-color: #25d366;
+      color: #fff;
+    }
+
+    .social-links a.facebook:hover {
+      background-color: #3b5998;
+      color: #fff;
+    }
+
+    .social-links a.instagram:hover {
+      background-color: #e4405f;
+      color: #fff;
+    }
+
+    .social-links a.tiktok:hover {
+      background-color: #000000;
+      color: #fff;
+    }
+
+    .social-links a.snapchat:hover {
+      background-color: #fffc00;
+      color: #000000;
+    }
+
+    footer {
+      background-color: #1c1f22;
+      color: #66fcf1;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+      width: 100%;
+      box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://scontent.fcai21-2.fna.fbcdn.net/v/t39.30808-6/443822740_472353808489561_4361863950371365008_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeF6GvN2T6vRjkAgUWhkAYUnTPotZ-w8Y6FM-i1n7DxjocGUDyUkT8CU4kwXvgwLN7drjItOzPOTvF_9ndyVVf4k&_nc_ohc=-r4yCaiJTC0Q7kNvgGVOH6q&_nc_ht=scontent.fcai21-2.fna&_nc_gid=AjQCsiU4_F99wLRRRZC2cGW&oh=00_AYDSl_alRUPM91F2mhJ6iSnL5BP_b938FJ8z2oalS6A7dw&oe=6722E050" alt="My Photo">
+    <h1>My Personal Website</h1>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#" onclick="window.location.href='https://api.whatsapp.com/send/?phone=2001002355696&text&type=phone_number&app_absent=0'">Contact Me</a>
+  </nav>
+  <div class="container">
+    <h2>Contact me through the following accounts:</h2>
+    <div class="social-links">
+      <a class="whatsapp" href="https://api.whatsapp.com/send/?phone=2001002355696&text&type=phone_number&app_absent=0">WhatsApp</a>
+      <a class="facebook" href="https://www.facebook.com/boda2011aa?mibextid=ZbWKwL">Facebook</a>
+      <a class="instagram" href="https://www.instagram.com/abdo__ahmed2011/profilecard/?igsh=dm1qOWJmendodWR4">Instagram</a>
+      <a class="tiktok" href="https://www.tiktok.com/@abdoahmed2177?_t=8qrqSePKz8q&_r=1">TikTok</a>
+      <a class="snapchat" href="https://www.snapchat.com/add/abdoahmed8596?share_id=bjYcP0IsHNc&locale=en-US">Snapchat</a>
+    </div>
+  </div>
+  <footer>
+    <p>All rights reserved &copy; 2024</p>
+  </footer>
+</body>
+</html>
